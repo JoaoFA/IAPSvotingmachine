@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "";
 $password = "";
 $dbname = "votes";
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname); #Checks if connects
 $logfile = "logs.txt";
 if (! $conn) {
 	echo "Connection to database failed";
